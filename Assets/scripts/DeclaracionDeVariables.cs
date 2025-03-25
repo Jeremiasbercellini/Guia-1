@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class DeclaracionDeVariables : MonoBehaviour
 {
-    int currentYear;
+    int cantidadAlumnos;
     float magnitudTerremoto;
     string nombreAlumno;
-    bool comuHabilitada;
+    bool compuHabilitada;
     // Start is called before the first frame update
     void Start()
     {
+        cantidadAlumnos = 24;
+        magnitudTerremoto = 9.3f;
+        nombreAlumno = "Jere";
+        compuHabilitada = false;
+
+        Debug.Log(cantidadAlumnos);
+        Debug.Log(magnitudTerremoto);
+        Debug.Log(nombreAlumno);
+        Debug.Log(compuHabilitada);
         
     }
 
